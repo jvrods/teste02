@@ -1,15 +1,22 @@
 
 const routes = [
   {
-    path: '/',
+    path: '/HomePage',
     component: () => import('layouts/HomePage.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') }
     ]
   },
 
-  // Always leave this as last one,
-  // but you can also remove it
+  {
+    path: '/Inscricao',
+    component: () => import('layouts/Inscricao.vue'),
+    children: [
+      { path: '', component: () => import('pages/Index.vue') }
+    ]
+
+  },
+
   {
     path: '*',
     component: () => import('pages/Error404.vue')
