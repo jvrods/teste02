@@ -14,7 +14,7 @@
         color="white"
         text-color="blue"
         unelevated
-        to="/HomePage"
+        to="/"
         label="Go Home"
         no-caps
       />

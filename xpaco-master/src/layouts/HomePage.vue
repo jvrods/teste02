@@ -10,8 +10,8 @@
           </q-avatar>
         </q-toolbar-title>
         <div id="btn-home">
-        <q-btn flat rounded color="primary" label="About us" />
-        <q-btn flat rounded color="primary" label="Login" />
+        <q-btn flat rounded color="primary" label="About us" to="/AboutUs" />
+        <q-btn flat rounded color="primary" label="Login" to="/Login" />
         <q-btn flat rounded color="primary" label="Inscreva-se" class="bg-green-6 text-white" to="/Inscricao"/>
     </div>
       </q-toolbar>
@@ -74,7 +74,7 @@
           <P class="text-center large-screen-only" id="pfoot">Xpaço</P>
         </q-toolbar-title>
         <div id="btnfoot">
-        <q-btn flat rounded color="white" label="Facebook" />
+        <q-btn flat rounded color="white" label="Facebook" to="https://www.facebook.com"/>
         <q-btn flat rounded color="white" label="Twitter" />
         <q-btn flat rounded color="white" label="Instagram"/>
         </div>

@@ -15,31 +15,9 @@
     </q-header>
   <div class="q-pa-md" id="form">
     <div class="q-gutter-md constraint" style="max-width: 400px" id="input">
-      <q-input standout="bg-teal text-white" v-model="text" label="Name" />
-       <q-input
-        filled
-        v-model="birth"
-        label="Data de nascimento"
-        mask="##/##/####"
-      />
-      <q-input standout="bg-teal text-white" v-model="text" label="Nickname" />
       <q-input standout="bg-teal text-white" v-model="text" label="Email" />
-      <q-input standout="bg-teal text-white" v-model="text" label="Endereço" />
-      <q-input standout="bg-teal text-white" v-model="text" label="Cidade" />
-      <q-input standout="bg-teal text-white" v-model="text" label="Estado" />
-       <q-input
-        filled
-        v-model="cep"
-        label="CEP"
-        mask="#####-###"
-      />
-      <q-input
-        filled
-        v-model="mobile"
-        label="Phone"
-        mask="(##) #### - #####"
-      />
-     <q-btn :ripple="false" color="secondary" label="Inscrever" id="btn-form" to="/Profile"/>
+      <q-input standout="bg-teal text-white" v-model="text" label="Senha" />
+     <q-btn :ripple="false" color="secondary" label="Login" id="btn-form" to="/Profile" />
    </div>
    </div>
 </q-layout>
@@ -59,7 +37,7 @@
 #btn-home
     margin-top: 15px
 #form
-    margin-top: 200px
+    margin-top: 300px
 #input
     width: 100%
 #btn-form
